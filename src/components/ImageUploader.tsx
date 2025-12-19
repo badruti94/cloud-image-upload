@@ -2,8 +2,8 @@ import { useState, useCallback } from 'react';
 import { Upload, Copy, Check, Loader2 } from 'lucide-react';
 import { toast } from '@/hooks/use-toast';
 
-const CLOUDINARY_CLOUD_NAME = 'YOUR_CLOUD_NAME'; // Ganti dengan cloud name kamu
-const CLOUDINARY_UPLOAD_PRESET = 'YOUR_UPLOAD_PRESET'; // Ganti dengan upload preset kamu
+const CLOUDINARY_CLOUD_NAME = 'dmzuc1ot0'; // Ganti dengan cloud name kamu
+const CLOUDINARY_UPLOAD_PRESET = 'mj2btbsx'; // Ganti dengan upload preset kamu
 
 const ImageUploader = () => {
   const [isDragging, setIsDragging] = useState(false);
